@@ -1,4 +1,4 @@
-## The aim of this file is to provide a R code that is capable of construccting plot 2
+## The aim of this file is to provide a R code that is capable of constructing plot 2
 ## Obtain the full dataset by downloading the file into a data folder
 
 data <- read.csv("household_power_consumption.txt", header=T, sep=';', na.strings="?",  nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
